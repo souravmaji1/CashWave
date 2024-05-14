@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #84309c;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #e7e8e8;
+  background: #070707;
+}
+/* YourStyles.css */
+
+/* Default styles for larger screens */
+.upload-page {
+  
+  padding-top: 10px;
+ 
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .upload-page {
+    margin-left: 0; /* No margin for smaller screens */
+    margin-right: 0;
+  }
+}
+
+.withdraw{
+  margin: 30px;
+}
+.date-picker {
+  background-color: rgba(34, 36, 41, 1);
+  border: 1px solid #3e424ab3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  width: 100%; /* Adjust the width as needed */
+}
+.home{
+  background: url('../public//images//Background.png');
+}
